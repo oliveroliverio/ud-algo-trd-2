@@ -29,7 +29,7 @@ plt.style.use('ggplot')
 mpf.plot(ohlcv_data['AMZN'], type='candle', volume=True)
 
 asdf =  ohlcv_data['AMZN']
-asdf.iloc[:,
+# asdf.iloc[:,
 # fig, ax = plt.subplots()
 # plt.style.available
 # plt.style.use('ggplot')
