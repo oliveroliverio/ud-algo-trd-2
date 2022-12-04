@@ -21,6 +21,7 @@ def CAGR(DF):
     CAGR = (df['cum_rtn'][-1])**(1/n) - 1 # get last value of the series and raise to 1/n, minus 1
     # if your CAGR is negative, then you lost money.
     return CAGR
+    #
 
 # calculate CAGR for each of the tickers
 for ticker in ohlcv_data:
